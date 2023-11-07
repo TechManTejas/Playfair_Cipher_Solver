@@ -1,8 +1,8 @@
 import { useState } from 'react';
 
 const PlayfairCipher = () => {
-    const [plainText, setPlainText] = useState('THISISTEXT');
-    const [key, setKey] = useState('TEJAS');
+    const [plainText, setPlainText] = useState('');
+    const [key, setKey] = useState('');
     const [cipherText, setCipherText] = useState('');
     const [explanation, setExplanation] = useState('');
 
